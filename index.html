@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="slider-container">
+      <div class="slider-images">
+        <div class="slider-img">
+          <img src="Images/1.png" alt="1" />
+          <h1>Mike</h1>
+          <div class="details">
+            <h2>Mike</h2>
+            <p>Web Developer</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/2.png" alt="2" />
+          <h1>Samite</h1>
+          <div class="details">
+            <h2>Samite</h2>
+            <p>Software Developer</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/3.png" alt="3" />
+          <h1>Hashi</h1>
+          <div class="details">
+            <h2>Hashi</h2>
+            <p>Web Desain</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/4.png" alt="4" />
+          <h1>Kora</h1>
+          <div class="details">
+            <h2>Kora</h2>
+            <p>Web Cyber</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/5.png" alt="5" />
+          <h1>Kitty</h1>
+          <div class="details">
+            <h2>Kitty</h2>
+            <p>Web Program</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/6.png" alt="6" />
+          <h1>Gite</h1>
+          <div class="details">
+            <h2>Gite</h2>
+            <p>Data Analyst</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/7.png" alt="7" />
+          <h1>Jiet</h1>
+          <div class="details">
+            <h2>Jiet</h2>
+            <p>IT Software</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/jQuery.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".slider-img").on("click", function () {
+          $(".slider-img").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
